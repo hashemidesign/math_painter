@@ -8,4 +8,4 @@ if __name__ == '__main__':
     r1.draw(canvas)
     s1 = Square(x=1, y=3, side=3, color=(0, 100, 222))
     s1.draw(canvas)
-    canvas.make('canvas.png')
+    canvas.make('canvas')

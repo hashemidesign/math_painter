@@ -13,6 +13,6 @@ class Canvas:
         #
         self.data[:] = self.color
 
-    def make(self, imgPath):
+    def make(self, filename):
         img = Image.fromarray(self.data, mode='RGB')
-        img.save(imgPath)
+        img.save(f'output/{filename}.png')
